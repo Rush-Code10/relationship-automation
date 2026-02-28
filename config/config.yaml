@@ -1,0 +1,22 @@
+data:
+  raw_data_path: "data/raw/"
+  processed_data_path: "data/processed/"
+
+thresholds:
+  low_score: 0.3
+  inactivity_days: 7
+  max_response_time_std_multiplier: 2.0
+  commitment_followup_days: 3
+
+weights:
+  frequency: 0.25
+  reciprocity: 0.2
+  sentiment: 0.2
+  response_time: 0.2
+  streak: 0.15
+
+sentiment:
+  vader_lexicon: "vader_lexicon"
+
+nlp:
+  commitment_keywords: ["meet", "call", "tickets", "dinner", "lunch", "coffee", "movie", "party", "hang out", "get together", "let's", "we should", "can we"]

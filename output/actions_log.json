@@ -1,0 +1,253 @@
+{
+  "actions": [
+    {
+      "id": 1,
+      "contact": "Mom",
+      "type": "reach_out",
+      "timestamp": "2026-02-28T23:50:26.675289",
+      "feedback": "dismissed"
+    },
+    {
+      "id": 2,
+      "contact": "Sneha",
+      "type": "catch_up",
+      "timestamp": "2026-02-28T23:50:26.676944",
+      "feedback": "dismissed"
+    },
+    {
+      "id": 3,
+      "contact": "Aryan",
+      "type": "catch_up",
+      "timestamp": "2026-02-28T23:50:26.678087",
+      "feedback": "dismissed"
+    },
+    {
+      "id": 4,
+      "contact": "Dr. Sharma",
+      "type": "check_in",
+      "timestamp": "2026-02-28T23:50:26.679216",
+      "feedback": "accepted"
+    },
+    {
+      "id": 5,
+      "contact": "Riya",
+      "type": "check_in",
+      "timestamp": "2026-02-28T23:50:26.680204",
+      "feedback": "dismissed"
+    },
+    {
+      "id": 6,
+      "contact": "Varun",
+      "type": "response_time_alert",
+      "timestamp": "2026-02-28T23:50:26.681237",
+      "feedback": "accepted"
+    },
+    {
+      "id": 7,
+      "contact": "Dad",
+      "type": "check_in",
+      "timestamp": "2026-02-28T23:50:26.682316",
+      "feedback": "dismissed"
+    },
+    {
+      "id": 8,
+      "contact": "Sahil",
+      "type": "response_time_alert",
+      "timestamp": "2026-02-28T23:50:26.683421",
+      "feedback": "dismissed"
+    },
+    {
+      "id": 9,
+      "contact": "Priya",
+      "type": "follow_up_reminder",
+      "timestamp": "2026-02-28T23:50:26.684492",
+      "feedback": "dismissed"
+    },
+    {
+      "id": 10,
+      "contact": "Anjali",
+      "type": "response_time_alert",
+      "timestamp": "2026-02-28T23:50:26.685811",
+      "feedback": "dismissed"
+    },
+    {
+      "id": 11,
+      "contact": "Mom",
+      "type": "reach_out",
+      "timestamp": "2026-03-01T00:04:26.943602",
+      "feedback": "accepted"
+    },
+    {
+      "id": 12,
+      "contact": "Sneha",
+      "type": "response_time_alert",
+      "timestamp": "2026-03-01T00:04:26.945199",
+      "feedback": "accepted"
+    },
+    {
+      "id": 13,
+      "contact": "Aryan",
+      "type": "response_time_alert",
+      "timestamp": "2026-03-01T00:04:26.946688",
+      "feedback": "dismissed"
+    },
+    {
+      "id": 14,
+      "contact": "Dr. Sharma",
+      "type": "check_in",
+      "timestamp": "2026-03-01T00:04:26.948286",
+      "feedback": "dismissed"
+    },
+    {
+      "id": 15,
+      "contact": "Riya",
+      "type": "check_in",
+      "timestamp": "2026-03-01T00:04:26.949607",
+      "feedback": "dismissed"
+    },
+    {
+      "id": 16,
+      "contact": "Varun",
+      "type": "response_time_alert",
+      "timestamp": "2026-03-01T00:04:26.951109",
+      "feedback": "accepted"
+    },
+    {
+      "id": 17,
+      "contact": "Dad",
+      "type": "check_in",
+      "timestamp": "2026-03-01T00:04:26.952402",
+      "feedback": "dismissed"
+    },
+    {
+      "id": 18,
+      "contact": "Sahil",
+      "type": "response_time_alert",
+      "timestamp": "2026-03-01T00:04:26.953690",
+      "feedback": "dismissed"
+    },
+    {
+      "id": 19,
+      "contact": "Priya",
+      "type": "check_in",
+      "timestamp": "2026-03-01T00:04:26.955705",
+      "feedback": "accepted"
+    },
+    {
+      "id": 20,
+      "contact": "Anjali",
+      "type": "response_time_alert",
+      "timestamp": "2026-03-01T00:04:26.956952",
+      "feedback": "dismissed"
+    }
+  ],
+  "sensitivity": {
+    "Mom": {
+      "reach_out": 0.9900000000000001
+    },
+    "Sneha": {
+      "catch_up": 0.9,
+      "response_time_alert": 1.1
+    },
+    "Aryan": {
+      "catch_up": 0.9,
+      "response_time_alert": 0.9
+    },
+    "Dr. Sharma": {
+      "check_in": 0.9900000000000001
+    },
+    "Riya": {
+      "check_in": 0.81
+    },
+    "Varun": {
+      "response_time_alert": 1.2100000000000002
+    },
+    "Dad": {
+      "check_in": 0.81
+    },
+    "Sahil": {
+      "response_time_alert": 0.81
+    },
+    "Priya": {
+      "follow_up_reminder": 0.9,
+      "check_in": 1.1
+    },
+    "Anjali": {
+      "response_time_alert": 0.81
+    }
+  },
+  "action_stats": {
+    "Mom": {
+      "reach_out": {
+        "accepted": 1,
+        "dismissed": 1
+      }
+    },
+    "Sneha": {
+      "catch_up": {
+        "accepted": 0,
+        "dismissed": 1
+      },
+      "response_time_alert": {
+        "accepted": 1,
+        "dismissed": 0
+      }
+    },
+    "Aryan": {
+      "catch_up": {
+        "accepted": 0,
+        "dismissed": 1
+      },
+      "response_time_alert": {
+        "accepted": 0,
+        "dismissed": 1
+      }
+    },
+    "Dr. Sharma": {
+      "check_in": {
+        "accepted": 1,
+        "dismissed": 1
+      }
+    },
+    "Riya": {
+      "check_in": {
+        "accepted": 0,
+        "dismissed": 2
+      }
+    },
+    "Varun": {
+      "response_time_alert": {
+        "accepted": 2,
+        "dismissed": 0
+      }
+    },
+    "Dad": {
+      "check_in": {
+        "accepted": 0,
+        "dismissed": 2
+      }
+    },
+    "Sahil": {
+      "response_time_alert": {
+        "accepted": 0,
+        "dismissed": 2
+      }
+    },
+    "Priya": {
+      "follow_up_reminder": {
+        "accepted": 0,
+        "dismissed": 1
+      },
+      "check_in": {
+        "accepted": 1,
+        "dismissed": 0
+      }
+    },
+    "Anjali": {
+      "response_time_alert": {
+        "accepted": 0,
+        "dismissed": 2
+      }
+    }
+  }
+}
